@@ -1,59 +1,110 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!--Espesifica el idioma del contenido del documento -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--agregamos etiquetas meta para el Seo de la clase anterior mas una del autor-->
+    <meta name="description" content="Nombre del grupo o alumno, creado por el grupo especializado en [programacion]">
+    <meta name="keywords" content="portafolio, desarrollador web,[programador], proyectos, contacto">
+    <meta name="author" content="Tu nombre">
     <title>BIT LEGION</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="container">
-                <h1>GRUPO BIT LEGION</h1>
-            <ul class="navegacion">
-                <li><a href="#Sobrenosotros">SOBRE NOSOTROS</a></li>
-                <li><a href="#Integrantes">INTEGRANTES</a></li>
-                <li><a href="#Contacto">CONTACTOS</a></li>
+        <nav> 
+        <h1>BIT LEGION</h1>
+        
+        <div>
+
+            <ul class="navigation">
+                <li><a href="#sobrenosotros">Somos</a></li>
+                <li><a href="#integrantes">Integrantes</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#contactos">Contactenos</a></li>
             </ul>
         </div>
         </nav>
     </header>
 
+
     <main>
-        <h2 id="Sobrenosotros">SOBRE NOSOTROS</h2>
-        <p>"MUY PRONTO"</p>
-     <section>
+        <section class="sobre-nosotros">
+            <article class="container-sobrenosotros">
+                <h2>
+                    <p><img class="imag-perfil" src="./Assets/Logo3.jpg" alt="logotipo del grupo BitLegion" widh="200" height="200"></p>
+                    Somos 11 estudiantes de la <b>UTN - San Rafael Mendoza, cursando la Tecnicatura en Programacion</b>.
+                    Pertenecemos al cohorte 2024. Programadores webs con experiencia en desarrollo frontend y backend. Especializados en crear sitios dinámicos y responsivos.
+                    Apasionados por la innovación tecnológica y la excelencia en el diseño.
+                </h2>    
+            </article>
+        </section>
 
-     </section>
-     <article>
-        Somos 11 estudiantes de la UTN - San Rafael Mendoza, cursando la Tecnicatura en Programacion, pertenecemos a la Cohort 2024. Programadores webs con experiencia en desarrollo frontend y backend. Especializados en crear sitios dinámicos y responsivos. Apasionados por la innovación tecnológica y la excelencia en el diseño. 
-     </article>
-        <h2 id="Integrantes">INTEGRANTES</h2>
-        <p>Aguilera Salinas, Oriana</p>
-        <p>Cazón, Daiana<p>
-        <p>Falcón, Manuel<p>
-        <p>Farias, Claudio<p>
-        <p>Farias,Rodrigo Ivan<p>
-        <p>Pacherres, Facundo<p>
-        <p>Rueda, Yamil<p>
-        <p>Rodriguez, Ignacio<p>
-        <p>Ureta, Jorge<p>
-        <p>Zanchi, Claudio<p>
-        <p>Zapata, Joaquin<p>
+        <section class="integrantes">
+            <article class="container-integrantes">
+                <h2 id="integrantes">Integrantes</h2>
+                <p>Aguilera Salinas, Oriana</p>
+                <p>Cazón, Daiana<p>
+                <p>Falcón, Manuel<p>
+                <p>Farias, Claudio<p>
+                <p>Farias,Rodrigo Ivan<p>
+                <p>Pacherres, Facundo<p>
+                <p>Rueda, Yamil<p>
+                <p>Rodriguez, Ignacio<p>
+                <p>Ureta, Jorge<p>
+                <p>Zanchi, Claudio<p>
+                <p>Zapata, Joaquin<p>
+            </article>
+        </section>
 
-        <h2 id="Contacto">CONTACTOS</h2>
-        <p>orianaaguilerasalinas97@gmail.com</p>
-        <p>cazondaie@gmail.com</p>
-        <p>manuelfalcon657@gmail.com</p>
-        <p>Cdf.mec@gmail.com</p>
-        <p>rodrigoivanfs@gmail.com</p>
-        <p>facundo95.07.12@gmail.com</p>
-        <p>yamilrueda88@gmail.com</p>
-        <p>rodrigueznacho994@gmail.com</p>
-        <p>jorge313ureta@gmail.com</p>
-        <p>estebanzanchi@gmail.com</p>
-        <p>joaco951@gmail.com</p>
+        <section class="proyectos">
+            <article class="container-proyectos">
+                <h2 id="proyectos">Proyectos</h2>
+                <h3>Proyecto Ahorcado - PSeInt</h3>
+                <p><b>2024-05  - </b>Juego desarrollado en PSEINT sobre el clasico y conocido Ahorcado, el cual contiene
+                    distintos modos de juego individual y en pareja, como tambien niveles de dificultad
+                </p>
+                <img class="img-ahorcado" src="./Assets/ahorcado.png"  alt="imagen del juego" width="400" height="250">
+            </article>
+
+        </section>
+        
+        <section id="estudios" class="estudios">
+            <article class="container-estudios">
+                <h2>Estudios previos</h2>
+                <p>Los integrantes cuentan secundarios tecnicos en diferentes areas y cursos de manejo de Python y Java</p>
+            </article>
+        </section>
+
+        <section id="experiencia" class="experiencia">
+            <article class="container-experiencia">
+                <h2> Experiencias</h2>
+                <p>Contamos con nuestra primera experiencia trabajando en equipo logrando desarrollar el juego del ahoracado y con expextativa de generar nuevos proyectos </p>
+            </article>
+
+        </section>
+
+        <section class="contactos">
+            <article class="container-contactos">
+                <h2 id="contactos">Contactenos</h2>
+                <p>orianaaguilerasalinas97@gmail.com</p>
+                <p>cazondaie@gmail.com<p>
+                <p>manuelfalcon657@gmail.com<p>
+                <p>Cdf.mec@gmail.com<p>
+                <p>rodrigoivanfs@gmail.com<p>
+                <p>facundo95.07.12@gmail.com<p>
+                <p>yamilrueda88@gmail.com<p>
+                <p>rodrigueznacho994@gmail.com<p>
+                <p>jorge313ureta@gmail.com<p>
+                <p>estebanzanchi@gmail.com<p>
+                <p>joaco951@gmail.com<p>                                  
+            </article>
+        </section>
+
     </main>
 </body>
 </html>
